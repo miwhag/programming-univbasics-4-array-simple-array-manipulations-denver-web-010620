@@ -3,3 +3,4 @@ def using_push(array,string)
 end
 
 using_push(["one","two","three"], "four")
+
