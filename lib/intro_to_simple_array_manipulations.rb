@@ -15,3 +15,9 @@ def using_pop(array)
 end
 
 using_pop(["one","two","three"])
+
+def pop_with_args(array)
+array.pop(2)
+end
+
+
