@@ -94,7 +94,9 @@ using_delete(["cat,dog,mouse"], "mouse")
 
 
 def using_delete_at(array,integer)
-
+array.delete_at(integer)
 end
+
+using_delete_at(["cat","dog","mouse","deer"],2)
 
 
