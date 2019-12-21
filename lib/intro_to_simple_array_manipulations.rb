@@ -59,7 +59,7 @@ using_concat(["one","two","three"], ["four","five","six"])
 
 
 def using_insert(array, element) 
-array.insert(3,element)
+array.insert(4,element)
 end
 
 using_insert([1,2,3,4],"cat")
