@@ -9,3 +9,9 @@ def using_unshift(array,string)
 end
 
 using_unshift(["one","two","three"], "four")
+
+def using_pop(array)
+  array.pop
+end
+
+using_pop
