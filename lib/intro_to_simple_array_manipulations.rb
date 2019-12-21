@@ -14,4 +14,4 @@ def using_pop(array)
   array.pop
 end
 
-using_pop
+using_pop(["one","two","three"])
