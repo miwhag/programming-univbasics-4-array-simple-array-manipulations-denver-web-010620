@@ -34,13 +34,15 @@ pop_with_args(["one","two","three"])
 def using_shift(array)
 array.shift
 end
+using_shift(["one","two","three"])
 
 
 
 
-
-
-
+def shift_with_args(array)
+array.shift(2)
+end
+shift_with_args(["one","two","three"])
 
 
 
