@@ -75,3 +75,11 @@ def using_uniq(array)
 array.uniq
 end
 using_uniq([1,2,3,4,4])
+
+
+
+
+def using_flatten(array)
+array.using_flatten
+end
+
