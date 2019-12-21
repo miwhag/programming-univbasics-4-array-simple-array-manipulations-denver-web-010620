@@ -6,7 +6,6 @@ using_push(["one","two","three"], "four")
 
 
 
-
 def using_unshift(array,string)
   array.unshift(string)
 end
@@ -70,7 +69,6 @@ using_insert([1,2,3,4],"cat")
 
 
 
-
 def using_uniq(array)
 array.uniq
 end
@@ -83,3 +81,12 @@ def using_flatten(array)
 array.flatten 
 end
 using_flatten([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
+
+
+
+
+def using_delete(array,string) 
+array.delete(string)
+end
+using_delete(["cat,dog,mouse"], "mouse")
+
