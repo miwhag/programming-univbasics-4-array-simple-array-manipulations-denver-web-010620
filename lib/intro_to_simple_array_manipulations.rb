@@ -80,6 +80,6 @@ using_uniq([1,2,3,4,4])
 
 
 def using_flatten(array)
-array.using_flatten
+array.flatten 
 end
 using_flatten([1,2,3,4],[5,6,7,8],[9,10,11,12])
