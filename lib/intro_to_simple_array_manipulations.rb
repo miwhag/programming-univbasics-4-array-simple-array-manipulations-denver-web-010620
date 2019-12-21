@@ -90,3 +90,11 @@ array.delete(string)
 end
 using_delete(["cat,dog,mouse"], "mouse")
 
+
+
+
+def using_delete_at(array,integer)
+
+end
+
+
