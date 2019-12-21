@@ -21,3 +21,8 @@ array.pop(2)
 end
 
 pop_with_args(["one","two","three"])
+
+def using_concat(arr1,arr2)
+arr1 + arr2 
+
+end
